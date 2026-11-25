@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Token Radar</title>
+  <link rel="stylesheet" href="app.css">
+  <script defer src="../data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="brand" href="#/board"><span class="brand-mark" aria-hidden="true"></span>Token Radar</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#/board" data-page="board">Ranked board</a>
+        <a href="#/peers" data-page="peers">Tokenized peers</a>
+        <a href="#/method" data-page="method">Method</a>
+      </nav>
+      <div id="snapshot" class="snapshot"></div>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1" aria-busy="true"></main>
+  <noscript><p class="wrap">Enable JavaScript to view the snapshot.</p></noscript>
+</body>
+</html>
